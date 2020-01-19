@@ -4,8 +4,7 @@ services:
         container_name: tensorflow
         image: tensorflow/tensorflow:latest-py3-jupyter
         volumes:
-            - /path/to/data:/mnt
-        runtime: nvidia
+            - ./dqncatp:/home/
         tty: true
         command: /bin/bash
         ports:
