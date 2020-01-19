@@ -1,6 +1,12 @@
 import numpy as np
 
 
+class CATPActObject:
+
+    def __init__(self):
+        self._judge_route_from = ""
+        self._judge_route_to = ""
+        self._route_id = ""
 
 class CATPEnvironment:
 
@@ -10,6 +16,8 @@ class CATPEnvironment:
     def commit(self):
         pass
 
+    def action(self, act_obj):
+        pass
 
     def _capacity_validate(self, route_id):
         

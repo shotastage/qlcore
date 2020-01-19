@@ -1,2 +1,4 @@
 ########## Upfile ##########
-declare -a strategies=("")
+declare -a strategies=(
+    "docker"
+)
