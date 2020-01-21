@@ -6,7 +6,7 @@ services:
             dockerfile: Dockerfile
         container_name: tensorflow
         volumes:
-            - ./dqncatp:/home/
+            - ./dqncatp:/catp/
         tty: true
         command: /bin/bash
         ports:
