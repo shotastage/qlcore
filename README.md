@@ -1,4 +1,4 @@
-# QLCore
+# The CATP Project
 
 Core Q learning.
 
