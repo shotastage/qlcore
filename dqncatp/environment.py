@@ -13,10 +13,15 @@ class CATPEnvironment:
     def __init__(self):
         pass
 
+    # Register or memory agent action flow.
+    def act(self, act_obj):
+        
+    # Calculate environment diff and save environment.
     def commit(self):
         pass
-
-    def action(self, act_obj):
+    
+    # Clear all environment to initial.
+    def reset(self):
         pass
 
     def _capacity_validate(self, route_id):
